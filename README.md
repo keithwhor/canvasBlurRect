@@ -8,7 +8,7 @@ canvasBlurRect extends the `CanvasRenderingContext2D` prototype to add a
   `_blurRect()` method which should perform a box blur + saturation of
   a rectangle on your canvas and function at > 30FPS on most modern machines.
 
-It does this by shrinking your canvas, bluring the smaller image in JavaScript,
+It does this by shrinking your canvas, blurring the smaller image in JavaScript,
 and using your browser's built-in hardware accelerated scaling to "blow up" your
 blurred image back to full screen.
 
