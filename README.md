@@ -68,7 +68,7 @@ returns self
  `sv`: Optional. Saturation value. Provide a value between 0 (completely desaturated, black + white) and
  2, with 1 being normal saturation. Default is 1.
 
-# Want to Help?
+# Pull Requests Welcome!
 
 The code was whipped together quickly, and I've repeated myself over a number
 of methods for performance reasons. If you can milk better performance out of
