@@ -50,16 +50,7 @@ context._blurRect(x, y, width, height, blurEffect, saturationValue);
 
 # Reference
 
-```
-CanvasRenderingContext2d#_blurRect(
-  [Integer] x,
-  [Integer] y,
-  [Integer] w,
-  [Integer] h,
-  [Optional Integer] blur,
-  [Optional Number] sv
-)
-```
+### CanvasRenderingContext2d#_blurRect( [Integer] x, [Integer] y, [Integer] w, [Integer] h, [Optional Integer] blur, [Optional Number] sv)
 
 returns self
 
@@ -77,17 +68,17 @@ returns self
  `sv`: Optional. Saturation value. Provide a value between 0 (completely desaturated, black + white) and
  2, with 1 being normal saturation. Default is 1.
 
- # Want to Help?
+# Want to Help?
 
- The code was whipped together quickly, and I've repeated myself over a number
- of methods for performance reasons. If you can milk better performance out of
- this library, PRs are welcome! Thanks!
+The code was whipped together quickly, and I've repeated myself over a number
+of methods for performance reasons. If you can milk better performance out of
+this library, PRs are welcome! Thanks!
 
- # Acknowledgements
+# Acknowledgements
 
- This is a small library, made for fun. Wanted to see if I could pull off
- fast box blurring in canvas. Enjoy! :)
+This is a small library, made for fun. Wanted to see if I could pull off
+fast box blurring in canvas. Enjoy! :)
 
- Follow me on Twitter, [@keithwhor](http://twitter.com/keithwhor)
+Follow me on Twitter, [@keithwhor](http://twitter.com/keithwhor)
 
- Or check out my personal website at [keithwhor.com](http://keithwhor.com)
+Or check out my personal website at [keithwhor.com](http://keithwhor.com)
