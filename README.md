@@ -2,6 +2,8 @@
 
 Real-time (30+ FPS) iOS-style box blur + saturation with HTML5 Canvas
 
+[Demo available here!](http://keithwhor.com/blur)
+
 canvasBlurRect extends the `CanvasRenderingContext2D` prototype to add a
   `_blurRect()` method which should perform a box blur + saturation of
   a rectangle on your canvas and function at > 30FPS on most modern machines.
@@ -13,8 +15,6 @@ blurred image back to full screen.
 For best results please use Chrome or Safari (desktop or iOS). Firefox seems
 to not like to perform any "simulated blurring" when it resizes images and will
 give poor results.
-
-Demo available [here](http://keithwhor.com/blur).
 
 # Usage
 
@@ -50,7 +50,16 @@ context._blurRect(x, y, width, height, blurEffect, saturationValue);
 
 # Reference
 
-### CanvasRenderingContext2d#_blurRect( [Integer] x, [Integer] y, [Integer] w, [Integer] h, [Optional Integer] blur, [Optional Number] sv)
+```
+CanvasRenderingContext2d#_blurRect(
+  [Integer] x,
+  [Integer] y,
+  [Integer] w,
+  [Integer] h,
+  [Optional Integer] blur,
+  [Optional Number] sv
+)
+```
 
 returns self
 
