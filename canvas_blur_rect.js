@@ -326,7 +326,7 @@
       srcW, srcH
     );
 
-    returns ctx;
+    return ctx;
 
   };
 
